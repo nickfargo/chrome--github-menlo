@@ -1,0 +1,15 @@
+{
+  "name"              : "Github Menlo",
+  "version"           : "1.0",
+  "description"       : "Resets monospace fonts on github.com sites to Menlo",
+  "permissions"       : [
+                          "tabs",
+                          "http://*/*"
+                        ],
+  "content_scripts"   : [
+    {
+      "matches"       : [ "*://github.com/*", "*://*.github.com/*" ],
+      "js"            : [ "index.js" ]
+    }
+  ]
+}
