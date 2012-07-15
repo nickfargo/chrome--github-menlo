@@ -6,10 +6,10 @@ pre, code, tt {
 }
 ```
 
-This unpacked Chrome extension simply resets the font of fixed-width elements to Menlo.
+This unpacked Chrome extension simply pushes **Menlo** for fixed-width elements across all **github.com** domains.
 
 ```css
 pre, code, tt {
-  font-family: Menlo;
+  font-family: Menlo, Consolas, Courier, monospace;
 }
 ```
