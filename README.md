@@ -1,4 +1,15 @@
-chrome--github-menlo
-====================
+Github’s fixed-width font stack was recently changed to
 
-Chrome extension that forces the monospace font to Menlo.
+```css
+pre, code, tt {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+```
+
+This unpacked Chrome extension simply resets the font of fixed-width elements to Menlo.
+
+```css
+pre, code, tt {
+  font-family: Menlo;
+}
+```
