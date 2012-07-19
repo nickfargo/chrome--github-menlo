@@ -1,4 +1,5 @@
 {
+  "manifest_version"  : 2,
   "name"              : "Github Menlo",
   "version"           : "1.0",
   "description"       : "Resets monospace fonts on github.com sites to Menlo",
